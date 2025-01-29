@@ -12,7 +12,7 @@ const UpdateStudent = ({onClose, ...props}) => {
 
   const onSubmit = (value, actions) => {
     actions.resetForm(); //Reset form data
-    inputImage.current.value = ""; //Clear image input field
+    inputImage.current.value = ""; //Clear image to input field
 
     handleUpdateStudent(
       props.data.id,
